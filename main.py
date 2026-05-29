@@ -128,11 +128,11 @@ def crear_sqlite(df):
 
 
 st.set_page_config(
-    page_title="ETL Parte I - Famosos",
+    page_title="ETL Parte I - Normalización",
     layout="wide"
 )
 
-st.title("ETL Parte I - Normalización de Famosos")
+st.title("ETL Parte I - Normalización")
 st.write("Carga un archivo con formato general: `Nombre - fecha`.")
 
 archivo = st.file_uploader(
